@@ -1,0 +1,4 @@
+check_type,table_name,status,details,timestamp
+Row Count,users,PASS,"Source: 5, Target: 5 (Match)",2026-06-04T19:46:36.978466
+Null Check,users,FAIL,Target users.email: 1 nulls found,2026-06-04T19:46:36.978851
+Duplicate PK Check,users,FAIL,Target users.id: 1 duplicate keys found,2026-06-04T19:46:36.979096
